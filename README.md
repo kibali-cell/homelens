@@ -41,7 +41,7 @@ Each step is a plain `.py` file split into `# %% block` cells. Run one with `pyt
 ## Quick start
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/homelens.git
+git clone https://github.com/kibali-cell/homelens.git
 cd homelens
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt && pip install -e .
