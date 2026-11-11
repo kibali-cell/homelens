@@ -1,0 +1,7 @@
+gamma=0.1   C=1    : support vectors =  605 of 1500 | train acc 0.822 | hold-out acc 0.835
+gamma=1     C=1    : support vectors =  582 of 1500 | train acc 0.829 | hold-out acc 0.840
+gamma=50    C=1    : support vectors =  886 of 1500 | train acc 0.859 | hold-out acc 0.813
+gamma=1     C=0.01 : support vectors =  759 of 1500 | train acc 0.749 | hold-out acc 0.748
+gamma=1     C=100  : support vectors =  619 of 1500 | train acc 0.831 | hold-out acc 0.839
+gamma=50    C=1000 : support vectors =  542 of 1500 | train acc 0.945 | hold-out acc 0.745
+[figure saved] fig17_svm_boundaries.png

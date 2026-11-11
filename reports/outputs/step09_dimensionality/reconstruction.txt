@@ -1,0 +1,8 @@
+k= 2 components: reconstruction RMSE (in std-dev units) = 0.594 | variance kept 51.6%
+k= 4 components: reconstruction RMSE (in std-dev units) = 0.416 | variance kept 76.3%
+k= 8 components: reconstruction RMSE (in std-dev units) = 0.172 | variance kept 95.9%
+k=11 components: reconstruction RMSE (in std-dev units) = 0.071 | variance kept 99.3%
+k=16 components: reconstruction RMSE (in std-dev units) = 0.000 | variance kept 100.0%
+
+IncrementalPCA vs PCA: max |diff| in explained variance = 1.89e-04
+Randomised PCA  vs PCA: max |diff| in explained variance = 1.94e-16

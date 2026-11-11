@@ -1,0 +1,13 @@
+Best max_depth = 10 (CV accuracy 0.879)
+Best min_samples_leaf = 20 (CV accuracy 0.885)
+ min_samples_leaf  train_acc  cv_acc
+                1      1.000   0.859
+                2      0.979   0.867
+                5      0.949   0.873
+               10      0.928   0.880
+               20      0.912   0.885
+               50      0.895   0.879
+              100      0.884   0.878
+              200      0.876   0.869
+              400      0.859   0.857
+[figure saved] fig19_tree_regularise.png

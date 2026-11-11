@@ -1,0 +1,8 @@
+AdaBoost (300 stumps depth 2): validation accuracy 0.8922 | F1 0.7774
+learning_rate=0.02: best validation RMSE 53281 at 400 trees; at 400 trees: 53281
+learning_rate=0.10: best validation RMSE 47451 at 400 trees; at 400 trees: 47451
+learning_rate=0.50: best validation RMSE 49140 at 164 trees; at 400 trees: 49684
+
+By hand: train RMSE  mean-only 115594 -> +tree1 74985 -> +tree2 68459  (each tree fits the previous residuals)
+Early stopping picked n_estimators = 327 (out of a 2000 budget)
+[figure saved] fig24_boosting.png

@@ -1,0 +1,3 @@
+Best validation RMSE 94537 reached at epoch 24 (train RMSE there: 70909)
+After 400 epochs: validation RMSE 105544 (+11.6% worse than best), train RMSE 58617
+[figure saved] fig15_early_stopping.png

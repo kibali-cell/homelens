@@ -1,0 +1,12 @@
+ degree  train_RMSE  unseen_RMSE
+      1    102254.0      85868.0
+      2     99903.0      88443.0
+      3     82151.0     102172.0
+      5     72202.0     104342.0
+      8     69066.0     135033.0
+     12     63767.0    3554026.0
+     16     61731.0   38753389.0
+     20     63074.0   19443183.0
+
+Lowest error on unseen data at degree 1
+[figure saved] fig01_bias_variance.png

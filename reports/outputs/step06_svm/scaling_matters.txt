@@ -1,0 +1,2 @@
+RBF-SVC, raw features   : accuracy 0.752  F1 0.114  (0.3s)
+RBF-SVC, scaled features: accuracy 0.878  F1 0.724  (0.2s)

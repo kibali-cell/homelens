@@ -1,0 +1,3 @@
+Premium threshold (75th percentile of TRAIN prices): $263900
+Class balance: premium = 25.0%  not premium = 75.0%
+Feature matrix: (16512, 16)

@@ -1,0 +1,13 @@
+[figure saved] fig21_regression_trees.png
+|--- median_income <= 5.09
+|   |--- median_income <= 3.07
+|   |   |--- value: [135889.56]
+|   |--- median_income >  3.07
+|   |   |--- value: [209790.49]
+|--- median_income >  5.09
+|   |--- median_income <= 6.82
+|   |   |--- value: [292301.41]
+|   |--- median_income >  6.82
+|   |   |--- value: [421587.30]
+
+Regression tree on all 16 features (depth 8): CV RMSE = 61342

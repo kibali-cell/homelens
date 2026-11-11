@@ -1,0 +1,4 @@
+Single tree  validation accuracy: 0.8622
+Bagging (200 trees) OOB estimate: 0.9033  | actual validation accuracy: 0.9014
+=> the out-of-bag score predicts validation accuracy WITHOUT needing a validation set
+A bootstrap sample leaves out ~ 36.8% of rows (theory: 1/e = 36.8%)

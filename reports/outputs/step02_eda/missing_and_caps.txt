@@ -1,0 +1,5 @@
+Missing values per column:
+ total_bedrooms    207
+
+Share of districts whose price sits exactly at the 500,001 cap: 4.68%
+Share of districts whose age sits at the 52-year cap:        6.17%

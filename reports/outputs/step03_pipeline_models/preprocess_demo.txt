@@ -1,0 +1,14 @@
+raw shape: (16512, 9) -> transformed shape: (16512, 24)
+
+First 8 of the 24 output features:
+bedrooms__ratio
+rooms_per_house__ratio
+people_per_house__ratio
+log__total_bedrooms
+log__total_rooms
+log__population
+log__households
+log__median_income
+
+Any NaN left after the pipeline? False
+Mean/std of first 3 ratio columns (should be ~0/~1): [-0. -0. -0.] [1. 1. 1.]

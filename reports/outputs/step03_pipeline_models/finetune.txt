@@ -1,0 +1,10 @@
+search took 42s
+Best params: {'columntransformer__geo__n_clusters': 34, 'randomforestregressor__max_features': 8, 'randomforestregressor__min_samples_leaf': 2}
+Best CV RMSE: 43227
+ n_clusters  max_features  min_samples_leaf  CV_RMSE
+         34             8                 2  43227.0
+         25             9                 2  43930.0
+         23             9                 3  44460.0
+         33            13                 5  44740.0
+         28             5                 5  44955.0
+         29             3                 3  45265.0

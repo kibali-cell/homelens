@@ -1,0 +1,14 @@
+Top 12 feature importances (sum of all = 1.00):
+log__median_income             0.207
+cat__ocean_proximity_INLAND    0.085
+bedrooms__ratio                0.067
+rooms_per_house__ratio         0.065
+people_per_house__ratio        0.062
+geo__geo_cluster_16_sim        0.032
+geo__geo_cluster_3_sim         0.031
+geo__geo_cluster_9_sim         0.030
+geo__geo_cluster_18_sim        0.027
+geo__geo_cluster_26_sim        0.021
+geo__geo_cluster_6_sim         0.018
+geo__geo_cluster_24_sim        0.017
+[figure saved] fig06_importance_ch2.png

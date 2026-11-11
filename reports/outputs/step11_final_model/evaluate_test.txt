@@ -1,0 +1,4 @@
+TEST RMSE = $41831 | MAE = $27465 | R^2 = 0.866
+95% confidence interval for the generalisation RMSE: [$39984, $43601]
+Gap between CV estimate and test RMSE: -2172 (-5.2%) -> small gap = trustworthy validation scheme
+Baseline (predict the training mean) test RMSE = $114165 -> our model removes 63% of the error

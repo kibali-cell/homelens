@@ -1,0 +1,18 @@
+init=random     n_init=1  -> inertia over 8 seeds: best 4816 | worst 9103 | spread 89.0%
+init=k-means++  n_init=1  -> inertia over 8 seeds: best 4871 | worst 5195 | spread 6.7%
+init=k-means++  n_init=10 -> inertia over 8 seeds: best 4815 | worst 4815 | spread 0.0%
+KMeans 0.06s vs MiniBatchKMeans 0.02s on the 16-feature data
+[figure saved] fig30_kmeans_map.png
+
+Average price per k-means region:
+        count      mean
+region                 
+0        1433  164824.0
+1        3885  262691.0
+2         892   86337.0
+3        1466  182986.0
+4        5720  242390.0
+5         548   91233.0
+6        1774  128388.0
+7         794  191220.0
+-> the clusters are geographic markets; pricing differs strongly between them.

@@ -1,0 +1,8 @@
+Root node: 12384 samples, class proportions [0.75 0.25]
+Gini(root) = 1 - (p0^2 + p1^2) = 1 - (0.750^2 + 0.250^2) = 0.3752
+Split: median_income <= 0.911 (standardised)  =  income <= 5.61 in the original units (x $10,000)
+  left : n=10631  Gini=0.2671
+  right: n= 1753  Gini=0.3141
+CART cost J = (10631/12384)*0.2671 + (1753/12384)*0.3141 = 0.2738  -> impurity drops from 0.3752 to 0.2738
+
+predict_proba for one district: [[0.946 0.054]] (= class fractions in its leaf)

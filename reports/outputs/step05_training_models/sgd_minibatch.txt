@@ -1,0 +1,4 @@
+Optimal MSE (normal equation): 0.5724
+SGD  (10 epochs, decaying eta):  final MSE 0.5724  |  1.0s  | distance to optimum 0.0078
+Mini-batch (30 epochs, bs=64):   final MSE 0.5736  |  0.1s  | distance to optimum 0.0344
+[figure saved] fig12_sgd_minibatch.png

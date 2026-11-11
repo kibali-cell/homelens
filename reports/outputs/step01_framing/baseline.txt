@@ -1,0 +1,3 @@
+Baseline 1 - predict the average price for everyone: RMSE = $115698
+Baseline 2 - one-feature linear model on median_income: RMSE = $84056
+   learned: price = 45241 + 41736 * income

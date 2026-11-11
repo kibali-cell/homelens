@@ -1,0 +1,6 @@
+Tier sizes: [4126 4123 4131 4132]
+SGD one-vs-rest (built-in)           accuracy = 0.586  macro-F1 = 0.548
+SGD one-vs-one (6 binary models)     accuracy = 0.629  macro-F1 = 0.630
+Random forest (native multiclass)    accuracy = 0.738  macro-F1 = 0.738
+Number of binary classifiers inside OvO for 4 classes: 6 = 4*3/2
+Number inside OvR for 4 classes: 4

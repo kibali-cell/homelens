@@ -1,0 +1,13 @@
+OOF RMSE = 42549 | OOF MAE = 26945
+
+Error by ocean proximity (MAE, $):
+            count     mean
+ocean                     
+<1H OCEAN    7277  28773.0
+INLAND       5262  19865.0
+ISLAND          2  57374.0
+NEAR BAY     1847  31230.0
+NEAR OCEAN   2124  34467.0
+
+Capped districts (price = 500,001): n=786, mean prediction=439826 -> models cannot learn beyond the cap
+[figure saved] fig07_error_analysis.png

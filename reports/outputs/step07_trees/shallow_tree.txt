@@ -1,0 +1,25 @@
+|--- median_income <= 0.91
+|   |--- people_per_house <= -0.06
+|   |   |--- median_income <= -0.26
+|   |   |   |--- class: 0
+|   |   |--- median_income >  -0.26
+|   |   |   |--- class: 1
+|   |--- people_per_house >  -0.06
+|   |   |--- median_income <= 0.27
+|   |   |   |--- class: 0
+|   |   |--- median_income >  0.27
+|   |   |   |--- class: 0
+|--- median_income >  0.91
+|   |--- median_income <= 1.29
+|   |   |--- people_per_house <= -0.01
+|   |   |   |--- class: 1
+|   |   |--- people_per_house >  -0.01
+|   |   |   |--- class: 0
+|   |--- median_income >  1.29
+|   |   |--- ocean_proximity_INLAND <= 0.50
+|   |   |   |--- class: 1
+|   |   |--- ocean_proximity_INLAND >  0.50
+|   |   |   |--- class: 1
+
+train acc 0.854 | validation acc 0.844
+[figure saved] fig18_tree_depth3.png

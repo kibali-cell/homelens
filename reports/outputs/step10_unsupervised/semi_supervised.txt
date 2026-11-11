@@ -1,0 +1,9 @@
+Accuracy with only 20 labels:
+  random 20 labelled districts (avg of 20 draws) : 0.789
+  20 cluster representatives                     : 0.794
+  label propagation to the whole cluster         : 0.789
+  propagation to the 20% closest-to-centroid     : 0.759
+  (reference) all labels, 8000 rows              : 0.878
+
+Why the gain is small: cluster purity (share of districts matching their cluster's majority label) = 0.782 vs 0.750 for always-guess-majority.
+Cluster-then-label works when clusters align with classes (e.g. handwritten digits). Here price classes overlap heavily in feature space.

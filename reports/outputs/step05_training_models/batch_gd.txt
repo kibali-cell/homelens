@@ -1,0 +1,7 @@
+eta = 0.002 : final MSE = 1.687  |theta - theta_NE| = 1.2451  -> converges
+eta = 0.02  : final MSE = 0.5752  |theta - theta_NE| = 0.0989  -> converges
+eta = 0.2   : final MSE = 0.5724  |theta - theta_NE| = 0.0000  -> converges
+eta = 1.0   : final MSE = 2.552e+130  |theta - theta_NE| = 272204396731722482882162834579695717989829383020239006017794342912.0000  -> DIVERGES
+[figure saved] fig11_gd_learning_rate.png
+
+After 1000 iterations at eta=0.2:  |theta - theta_NE| = 0.0

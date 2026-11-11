@@ -1,0 +1,4 @@
+Underfit: line on income only     : final train RMSE =  83501, validation RMSE =  83507, gap =     6 | validation at n=264: 83709
+Better: line on 4 features        : final train RMSE =  73294, validation RMSE =  73319, gap =    26 | validation at n=264: 73975
+Overfit: degree-4 on 4 features   : final train RMSE =  65843, validation RMSE =  66191, gap =   348 | validation at n=264: 98762
+[figure saved] fig13_learning_curves.png

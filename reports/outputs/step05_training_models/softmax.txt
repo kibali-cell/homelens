@@ -1,0 +1,7 @@
+classes: [0 1 2 3] | coefficient matrix shape (K classes x n features): (4, 16)
+
+Scores z for district 0: [ 4.03  2.11 -0.59 -5.55]
+softmax by hand        : [0.864 0.127 0.009 0.   ]
+sklearn predict_proba  : [0.864 0.127 0.009 0.   ]  (identical)
+true tier of district 0: 0
+Softmax regression 5-fold accuracy: 0.640

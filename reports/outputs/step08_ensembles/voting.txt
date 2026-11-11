@@ -1,0 +1,5 @@
+lr    validation accuracy 0.8755 | F1 0.7331
+rf    validation accuracy 0.9055 | F1 0.7994
+knn   validation accuracy 0.8738 | F1 0.7155
+VOTING (hard): validation accuracy 0.8932 | F1 0.7648
+VOTING (soft): validation accuracy 0.8956 | F1 0.7728

@@ -1,0 +1,10 @@
+normal equation:       [ 2.081   1.0788  0.2105  0.3511 -0.0465]
+pseudo-inverse (SVD):  [ 2.081   1.0788  0.2105  0.3511 -0.0465]
+sklearn LinearRegression: [ 2.081   1.0788  0.2105  0.3511 -0.0465]
+Max difference between the three: 0.0
+RMSE in $: 75654
+   bias                          +208096 $ per +1 std-dev
+   num__median_income            +107877 $ per +1 std-dev
+   num__housing_median_age        +21048 $ per +1 std-dev
+   num__bedrooms_ratio            +35113 $ per +1 std-dev
+   num__latitude                   -4652 $ per +1 std-dev

@@ -1,0 +1,259 @@
+{
+ "baseline_mean_rmse": 115697.79364533882,
+ "baseline_income_rmse": 84056.18763327331,
+ "bv_table": {
+  "degree": [
+   1,
+   2,
+   3,
+   5,
+   8,
+   12,
+   16,
+   20
+  ],
+  "train_RMSE": [
+   102254.0,
+   99903.0,
+   82151.0,
+   72202.0,
+   69066.0,
+   63767.0,
+   61731.0,
+   63074.0
+  ],
+  "unseen_RMSE": [
+   85868.0,
+   88443.0,
+   102172.0,
+   104342.0,
+   135033.0,
+   3554026.0,
+   38753389.0,
+   19443183.0
+  ]
+ },
+ "datasize_table": {
+  "n_train": [
+   20,
+   40,
+   80,
+   300,
+   1000,
+   5000
+  ],
+  "train_RMSE": [
+   60410,
+   72363,
+   89707,
+   85440,
+   84622,
+   83774
+  ],
+  "unseen_RMSE": [
+   13170051,
+   95526,
+   87422,
+   85286,
+   84986,
+   84689
+  ]
+ },
+ "n_missing_bedrooms": 207,
+ "pct_price_cap": 4.675387596899225,
+ "split_random_maxerr": 5.05,
+ "split_strat_maxerr": 0.5,
+ "corr_income": 0.6871505591484585,
+ "corr_bedrooms_ratio": -0.2599519229507523,
+ "corr_total_rooms": 0.13513957642648644,
+ "ch2_cv_table": {
+  "model": [
+   "Mean baseline",
+   "Linear regression",
+   "Decision tree",
+   "Random forest (100 trees)"
+  ],
+  "train_rmse": [
+   115698.0,
+   69240.0,
+   0.0,
+   17612.0
+  ],
+  "cv_rmse": [
+   115700.0,
+   71698.0,
+   67431.0,
+   47630.0
+  ],
+  "cv_std": [
+   1744.0,
+   7502.0,
+   3437.0,
+   899.0
+  ],
+  "secs": [
+   2.0,
+   1.0,
+   2.0,
+   45.0
+  ]
+ },
+ "ch2_best_params": {
+  "n_clusters": 34,
+  "max_features": 8,
+  "min_samples_leaf": 2
+ },
+ "ch2_best_cv": 43226.55388336707,
+ "capped_mean_pred": 439825.7771528333,
+ "dummy_accuracy": 0.7497577519379846,
+ "sgd_precision": 0.8018585131894485,
+ "sgd_recall": 0.6473862536302033,
+ "sgd_f1": 0.7163899303695769,
+ "sgd_p90_recall": 0.46466602129719264,
+ "auc_sgd": 0.920803234771131,
+ "auc_rf": 0.9574757556374691,
+ "rf_precision": 0.8607664736696995,
+ "rf_recall": 0.755566311713456,
+ "tier_acc_rf": 0.7381904069767442,
+ "adjacent_err_pct": 91.07101549849641,
+ "reg_unreg_val": 302471.1440436654,
+ "reg_ridge_val": 86139.22131581628,
+ "reg_lasso_val": 79984.2002395061,
+ "lasso_nonzero": 14,
+ "es_best_epoch": 24,
+ "es_worse_pct": 11.643565245179488,
+ "softmax_acc": 0.6402013990548394,
+ "svc_best": {
+  "C": 10.0,
+  "gamma": 0.03
+ },
+ "svc_holdout_f1": 0.7526881720430108,
+ "svc_time_table": {
+  "n_samples": [
+   1000,
+   2000,
+   4000,
+   8000,
+   12000
+  ],
+  "kernel_SVC_sec": [
+   0.01,
+   0.04,
+   0.12,
+   0.44,
+   1.3
+  ],
+  "LinearSVC_sec": [
+   0.003,
+   0.004,
+   0.006,
+   0.014,
+   0.036
+  ]
+ },
+ "svr_best_rmse": 56666.0,
+ "gini_root": 0.3752421306937683,
+ "gini_after_split": 0.27378159080116443,
+ "root_feature": "median_income",
+ "root_thr_income": 5.6102999839633085,
+ "full_tree_depth": 24,
+ "full_tree_leaves": 1059,
+ "full_tree_val": 0.8510174418604651,
+ "tree_best_depth": 10,
+ "tree_best_leaf": 20,
+ "tree_best_acc": 0.8846293395886822,
+ "tree_reg_rmse": 61341.93416740293,
+ "voting_hard_acc": 0.8931686046511628,
+ "voting_soft_acc": 0.8955910852713178,
+ "bag_oob": 0.903343023255814,
+ "bag_val": 0.9014050387596899,
+ "single_tree_val": 0.8621608527131783,
+ "rf_clf_val": 0.907703488372093,
+ "gb_early_trees": 327,
+ "bakeoff": {
+  "model": [
+   "Linear regression",
+   "Ridge",
+   "Decision tree (tuned)",
+   "Random forest",
+   "Extra-trees",
+   "Gradient boosting",
+   "Hist. gradient boosting",
+   "Stacking (RF+HGB+ET -> Ridge)"
+  ],
+  "cv_rmse": [
+   68434.0,
+   68428.0,
+   59966.0,
+   49225.0,
+   49754.0,
+   47324.0,
+   46105.0,
+   46280.0
+  ],
+  "cv_std": [
+   808.0,
+   811.0,
+   560.0,
+   873.0,
+   768.0,
+   1197.0,
+   1027.0,
+   897.0
+  ],
+  "secs": [
+   0.0,
+   0.0,
+   0.0,
+   18.0,
+   9.0,
+   32.0,
+   2.0,
+   37.0
+  ]
+ },
+ "pca_d95": 8,
+ "pca_d99": 11,
+ "pca_rf_raw": 50112.37109707357,
+ "pca_rf_k16": 53696.0,
+ "pca_rf_k8": 58058.0,
+ "pca_lin_k16": 68747.0,
+ "kpca_acc": 0.839,
+ "pca6_acc": 0.8436666666666666,
+ "kmeans_best_k_sil": 2,
+ "cluster_feat_gain_pct": 9.746803011758843,
+ "rmse_no_geo": 49941.868195187,
+ "rmse_geo": 45074.13268180988,
+ "semi_purity": 0.7817950581395349,
+ "semi": {
+  "random": 0.7885775862068967,
+  "rep": 0.7941962117532783,
+  "prop": 0.7887931034482759,
+  "prop20": 0.758681398737251,
+  "full": 0.8778328611898017
+ },
+ "gmm_k": 8,
+ "n_anomalies": 331,
+ "final_cv_rmse": 44003.393403951326,
+ "final_params": {
+  "n_clusters": 44,
+  "l2_regularization": 1.2164,
+  "learning_rate": 0.0356,
+  "max_iter": 430,
+  "max_leaf_nodes": 55,
+  "min_samples_leaf": 37
+ },
+ "test_rmse": 41831.41532487426,
+ "test_mae": 27464.632223765133,
+ "test_r2": 0.8657371941471993,
+ "test_ci_low": 39984.11658216341,
+ "test_ci_high": 43600.51647983329,
+ "test_baseline_rmse": 114165.27031417929,
+ "within20": 76.62306201550388,
+ "clf_test_auc": 0.9724392956576776,
+ "clf_test_precision": 0.8864970645792564,
+ "clf_test_recall": 0.8435754189944135,
+ "clf_test_f1": 0.8645038167938931,
+ "clf_threshold_prob": 0.4413032937739799,
+ "premium_value_threshold": 263900.0
+}

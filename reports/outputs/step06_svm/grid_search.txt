@@ -1,0 +1,13 @@
+Grid search over 20 combos x 3 folds took 4s
+best params: {'C': 10, 'gamma': 0.03} | CV F1 = 0.762
+Hold-out (4000 unseen training rows): accuracy 0.885 | F1 0.753
+Support vectors: 1173 of 4000 (29%)
+
+CV F1 by (C rows x gamma cols):
+param_gamma   0.01   0.03   0.10   0.30
+param_C                                
+0.3          0.568  0.634  0.683  0.657
+1.0          0.669  0.711  0.724  0.729
+3.0          0.717  0.735  0.746  0.740
+10.0         0.737  0.762  0.759  0.742
+30.0         0.757  0.757  0.747  0.731

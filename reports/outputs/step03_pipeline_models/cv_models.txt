@@ -1,0 +1,4 @@
+Mean baseline                train RMSE=   115698 | CV RMSE=   115700 (+/-   1744)  [   2s]
+Linear regression            train RMSE=    69240 | CV RMSE=    71698 (+/-   7502)  [   1s]
+Decision tree                train RMSE=        0 | CV RMSE=    67431 (+/-   3437)  [   2s]
+Random forest (100 trees)    train RMSE=    17612 | CV RMSE=    47630 (+/-    899)  [  45s]

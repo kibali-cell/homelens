@@ -1,0 +1,4 @@
+t-SNE on 3000 districts took 10s
+[figure saved] fig28_tsne.png
+PCA-2D    kNN(15) price-tier accuracy in 2-D: 0.333
+t-SNE-2D  kNN(15) price-tier accuracy in 2-D: 0.570

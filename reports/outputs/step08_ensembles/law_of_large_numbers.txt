@@ -1,0 +1,4 @@
+[figure saved] fig22_wisdom_crowd.png
+voters 51% accurate: majority of 1001 is right with P = 0.737 ; majority of 5001: 0.921
+voters 55% accurate: majority of 1001 is right with P = 0.999 ; majority of 5001: 1.000
+voters 65% accurate: majority of 1001 is right with P = 1.000 ; majority of 5001: 1.000

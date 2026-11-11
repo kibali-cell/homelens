@@ -1,0 +1,4 @@
+DBSCAN found 25 dense regions; 11.1% of districts labelled noise (-1)
+Largest regions (label: size): {3: 6884, 4: 3564, 1: 1267, 0: 633, 8: 551}
+[figure saved] fig31_dbscan.png
+Hierarchical (Ward) vs k-means agreement on 4000 points: adjusted Rand = 0.734

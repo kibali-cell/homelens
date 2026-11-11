@@ -1,0 +1,3 @@
+[figure saved] fig20_tree_instability.png
+Accuracy original axes: 0.847 | rotated axes: 0.837
+Full 16-feature tree CV acc: raw axes 0.878 vs PCA-rotated axes 0.861

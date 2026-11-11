@@ -1,0 +1,3 @@
+kernel-PCA + logistic regression grid (3000 rows) took 3s
+best: {'kernelpca__gamma': 0.01, 'kernelpca__kernel': 'rbf'} | CV accuracy 0.839
+Plain PCA(6) + logistic regression CV accuracy: 0.844

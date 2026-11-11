@@ -1,0 +1,3 @@
+without geo-cluster features               CV RMSE = 49942
+with 25 geo-cluster similarity features    CV RMSE = 45074
+Improvement: 9.7%

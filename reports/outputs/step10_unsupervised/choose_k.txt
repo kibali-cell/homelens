@@ -1,0 +1,17 @@
+ k  inertia  silhouette
+ 2  21428.0       0.752
+ 3  14675.0       0.649
+ 4  11449.0       0.599
+ 5   8286.0       0.583
+ 6   6413.0       0.570
+ 7   5430.0       0.571
+ 8   4815.0       0.527
+ 9   4201.0       0.495
+10   3710.0       0.505
+11   3408.0       0.520
+12   3107.0       0.447
+13   2842.0       0.488
+14   2492.0       0.458
+15   2218.0       0.470
+Highest silhouette at k = 2 (there is no single 'right' k - it is a modelling choice)
+[figure saved] fig29_choose_k.png

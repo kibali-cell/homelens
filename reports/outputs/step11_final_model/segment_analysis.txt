@@ -1,0 +1,20 @@
+Error by ocean proximity:
+               n       MAE  MAPE_pct
+ocean                               
+<1H OCEAN   1859   29239.1      13.8
+INLAND      1289   19879.4      17.6
+ISLAND         3  112432.9      26.5
+NEAR BAY     443   30792.9      13.7
+NEAR OCEAN   534   36358.3      17.0
+
+Error by income band:
+                n      MAE  MAPE_pct
+income_band                         
+low           987  22090.8      19.1
+mid          1526  25541.4      15.5
+upper        1143  31067.9      14.1
+high          472  36193.8      10.7
+
+Capped districts (true value hidden above $500k): n=179, MAE=53433 vs 26288 for the rest
+Share of test districts predicted within +/-20% of the truth: 76.6%
+[figure saved] fig33_test_diagnostics.png

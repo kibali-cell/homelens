@@ -1,0 +1,2 @@
+A model that ALWAYS says 'not premium' scores accuracy = 0.750
+... yet it finds 0 premium districts. Accuracy is misleading on skewed classes.

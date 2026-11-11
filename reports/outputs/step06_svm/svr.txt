@@ -1,0 +1,8 @@
+                              model  hold-out RMSE ($)  fit sec
+LinearSVR (epsilon=0.1), 12.5k rows            68794.1      3.6
+       SVR rbf C=1 eps=0.1, 4k rows            58542.6      0.8
+       SVR rbf C=3 eps=0.1, 4k rows            57322.2      0.9
+      SVR rbf C=10 eps=0.1, 4k rows            56666.0      1.2
+       SVR rbf C=3 eps=0.5, 4k rows            57949.2      0.3
+
+Support vectors in SVR(C=3, eps=0.1): 3079 of 4000 (a wider epsilon tube -> fewer SVs)

@@ -1,0 +1,3 @@
+Search (25 candidates x 4 folds) took 68s
+Best params: {'n_clusters': 44, 'l2_regularization': 1.2164, 'learning_rate': 0.0356, 'max_iter': 430, 'max_leaf_nodes': 55, 'min_samples_leaf': 37}
+Best CV RMSE on the training set: $44003

@@ -1,0 +1,5 @@
+from scratch: theta = [-1.432  1.728 -0.06 ] | log-loss = 0.3979
+scikit-learn: theta = [-1.431  1.728 -0.06 ] | log-loss = 0.3979
+Accuracy of the 2-feature model: 0.833
+A +1 std-dev rise in income multiplies the odds of being premium by x5.63
+[figure saved] fig16_logistic_boundary.png

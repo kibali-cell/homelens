@@ -1,0 +1,13 @@
+After adding ratio features:
+median_house_value    1.000
+median_income         0.687
+rooms_per_house       0.146
+total_rooms           0.135
+housing_median_age    0.114
+households            0.065
+total_bedrooms        0.048
+people_per_house     -0.022
+population           -0.027
+longitude            -0.047
+latitude             -0.143
+bedrooms_ratio       -0.260

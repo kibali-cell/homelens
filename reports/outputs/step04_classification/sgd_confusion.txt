@@ -1,0 +1,9 @@
+Confusion matrix (rows = actual, cols = predicted)
+                    pred not  pred premium
+actual not-premium     11719           661
+actual premium          1457          2675
+
+precision = TP/(TP+FP) = 2675/3336 = 0.802
+recall    = TP/(TP+FN) = 2675/4132 = 0.647
+F1        = harmonic mean         = 0.716
+accuracy  = 0.872

@@ -1,0 +1,1 @@
+Unconstrained tree: depth=24, leaves=1059, train acc=1.000, validation acc=0.851

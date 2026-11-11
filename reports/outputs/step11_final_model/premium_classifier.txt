@@ -1,0 +1,9 @@
+Premium threshold = $263900
+Out-of-fold: best-F1 operating point at probability 0.441 ; 90%-precision point at 0.607
+TEST @ max-F1 threshold         precision 0.886 | recall 0.844 | F1 0.865
+TEST @ 90%-precision threshold  precision 0.927 | recall 0.774 | F1 0.844
+TEST @ default 0.5              precision 0.904 | recall 0.811 | F1 0.855
+TEST ROC-AUC = 0.9724
+Confusion matrix @ max-F1 (rows actual, cols predicted):
+ [[2938  116]
+ [ 168  906]]

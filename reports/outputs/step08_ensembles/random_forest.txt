@@ -1,0 +1,11 @@
+Random forest: OOB 0.9073 | validation accuracy 0.9077 | F1 0.8041
+median_income             0.279
+people_per_house          0.122
+bedrooms_ratio            0.102
+longitude                 0.097
+latitude                  0.082
+rooms_per_house           0.074
+ocean_proximity_INLAND    0.068
+housing_median_age        0.045
+[figure saved] fig23_rf_importance.png
+Trees -> validation accuracy: 1:0.857 | 3:0.880 | 10:0.901 | 30:0.906 | 100:0.910 | 300:0.908

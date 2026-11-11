@@ -1,0 +1,19 @@
+ k      BIC      AIC
+ 1 220112.0 219958.0
+ 2 212309.0 211993.0
+ 3 209185.0 208707.0
+ 4 206703.0 206063.0
+ 5 205966.0 205164.0
+ 6 205345.0 204381.0
+ 7 204149.0 203023.0
+ 8 196759.0 195471.0
+Lowest BIC at k = 8
+Flagged the 2% lowest-density districts as anomalies: 331
+       median_income  households  population  housing_median_age     price ocean_proximity
+8040            10.2         6.0      7460.0                45.0  137500.0          INLAND
+5583             5.5         7.0      4198.0                36.0   67500.0          INLAND
+12205            4.3        13.0      6532.0                46.0  350000.0      NEAR OCEAN
+10314            6.1        29.0      6675.0                52.0  225000.0          INLAND
+8964             4.2       105.0      8733.0                 5.0  154600.0          INLAND
+13366            0.5         4.0         3.0                16.0  350000.0       <1H OCEAN
+[figure saved] fig32_gmm.png

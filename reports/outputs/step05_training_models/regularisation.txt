@@ -1,0 +1,6 @@
+Degree-4 polynomial on 4 features -> 69 features, but only 150 training rows
+Unregularised: train RMSE=47436 | validation RMSE=302471   <- severe overfitting
+Ridge (L2)  : best alpha=   215.4 -> validation RMSE=86139 | non-zero coefficients: 69 of 69
+Lasso (L1)  : best alpha=  4641.6 -> validation RMSE=79984 | non-zero coefficients: 14 of 69
+Elastic net : best alpha=     2.2 -> validation RMSE=86097 | non-zero coefficients: 69 of 69
+[figure saved] fig14_regularisation.png

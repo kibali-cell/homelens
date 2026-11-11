@@ -1,0 +1,8 @@
+ dimensions  nearest  farthest  nearest/farthest
+          2    0.012     1.105             0.011
+         10    0.759     1.939             0.392
+        100    3.429     4.607             0.744
+       1000   12.413    13.759             0.902
+      10000   40.260    41.679             0.966
+-> as d grows the nearest neighbour is almost as far as the farthest one: distance-based methods degrade.
+Share of a random point's volume 'near the border' (within 0.001) in d=1000: 86.5%

@@ -1,0 +1,10 @@
+                        model  cv_rmse  cv_std  secs
+            Linear regression  68434.0   808.0   0.0
+                        Ridge  68428.0   811.0   0.0
+        Decision tree (tuned)  59966.0   560.0   0.0
+                Random forest  49225.0   873.0  18.0
+                  Extra-trees  49754.0   768.0   9.0
+            Gradient boosting  47324.0  1197.0  32.0
+      Hist. gradient boosting  46105.0  1027.0   2.0
+Stacking (RF+HGB+ET -> Ridge)  46280.0   897.0  37.0
+[figure saved] fig25_bakeoff.png

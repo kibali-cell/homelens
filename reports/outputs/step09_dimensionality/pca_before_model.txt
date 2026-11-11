@@ -1,0 +1,11 @@
+model           Linear  Random forest
+n_components                         
+3             103330.0        92633.0
+5              87724.0        68464.0
+8              71598.0        58058.0
+11             69424.0        56968.0
+16             68747.0        53696.0
+
+Random forest on the ORIGINAL 16 features: CV RMSE = 50112
+=> At k=16 PCA is only a rotation, yet the forest is already worse: axis-aligned splits lose the meaningful axes. Dropping components then removes signal too.
+[figure saved] fig27_pca_models.png
